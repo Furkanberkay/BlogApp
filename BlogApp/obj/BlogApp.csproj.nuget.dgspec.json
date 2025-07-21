@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\monster\\OneDrive\\Desktop\\dotnetProjects\\BlogApp\\BlogApp\\BlogApp.csproj": {}
+    "C:\\Users\\OKG\\Desktop\\DotnetProjects\\BlogApp\\BlogApp\\BlogApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\monster\\OneDrive\\Desktop\\dotnetProjects\\BlogApp\\BlogApp\\BlogApp.csproj": {
+    "C:\\Users\\OKG\\Desktop\\DotnetProjects\\BlogApp\\BlogApp\\BlogApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\monster\\OneDrive\\Desktop\\dotnetProjects\\BlogApp\\BlogApp\\BlogApp.csproj",
+        "projectUniqueName": "C:\\Users\\OKG\\Desktop\\DotnetProjects\\BlogApp\\BlogApp\\BlogApp.csproj",
         "projectName": "BlogApp",
-        "projectPath": "C:\\Users\\monster\\OneDrive\\Desktop\\dotnetProjects\\BlogApp\\BlogApp\\BlogApp.csproj",
-        "packagesPath": "C:\\Users\\monster\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\monster\\OneDrive\\Desktop\\dotnetProjects\\BlogApp\\BlogApp\\obj\\",
+        "projectPath": "C:\\Users\\OKG\\Desktop\\DotnetProjects\\BlogApp\\BlogApp\\BlogApp.csproj",
+        "packagesPath": "C:\\Users\\OKG\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\OKG\\Desktop\\DotnetProjects\\BlogApp\\BlogApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\monster\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\OKG\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -42,6 +42,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
